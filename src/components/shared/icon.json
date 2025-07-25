@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_icons",
+  "info": {
+    "displayName": "Icon",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}
